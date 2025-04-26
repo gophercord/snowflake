@@ -499,7 +499,7 @@ func MustParseJSON(b []byte) Snowflake {
 //   - [StringParseError]: if the type of argument "v" is a string and the string contains
 //     non-integer characters ([strconv.ParseUint] returned an error when parsing the string).
 //
-// # Examples:
+// # Examples
 //
 //	myTime, myString, myUint := time.Now(), "1363292549053284505", 1363292549053284505
 //
