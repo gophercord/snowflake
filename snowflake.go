@@ -536,7 +536,7 @@ func MustParse[T string | uint64 | time.Time](v T) Snowflake {
 //
 // # Return
 //
-//   - [Snowflkake]: New snowflake with all bits set to zero.
+//   - [Snowflake]: New snowflake with all bits set to zero.
 //
 // # Examples
 //
