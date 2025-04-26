@@ -1,5 +1,7 @@
 package snowflake_test
 
+// TODO: Add more tests
+
 import (
 	"snowflake"
 	"testing"
