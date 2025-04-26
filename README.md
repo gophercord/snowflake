@@ -2,7 +2,8 @@
 <img src=".etc/pictures/gopher/gopher-with-discord-logo.png" align="right" width=200>
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/gophercord/snowflake.svg)](https://pkg.go.dev/github.com/gophercord/snowflake)
-[![License](https://img.shields.io/badge/License-GPL-blue.svg)](https://github.com/gophercord/snowflake/blob/master/LICENSE)
+[![Go Report](https://goreportcard.com/badge/github.com/gophercord/snowflake)](https://goreportcard.com/report/github.com/gophercord/snowflake)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/gophercord/snowflake/blob/master/LICENSE)
 
 Library for manipulating Discord snowflake IDs written in Go (Golang), used by Gophercord.
 
