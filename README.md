@@ -41,5 +41,8 @@ Type this command in your terminal to install:
 $ go get github.com/gophercord/snowflake
 ```
 
+### Usage:
+TODO
+
 ## License
 This software is licensed under the MIT License. For more information, see [LICENSE](./LICENSE.md).
