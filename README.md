@@ -41,7 +41,7 @@ Type this command in your terminal to install:
 $ go get github.com/gophercord/snowflake
 ```
 
-### Usage:
+### Usage
 TODO
 
 ## License
