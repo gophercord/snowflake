@@ -3,8 +3,9 @@ package snowflake_test
 // TODO: Add more tests
 
 import (
-	"snowflake"
 	"testing"
+
+	"github.com/gophercord/snowflake"
 )
 
 const T, F = true, false
