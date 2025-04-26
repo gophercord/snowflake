@@ -16,7 +16,7 @@ Library for manipulating Discord snowflake IDs written in Go (Golang), used by G
 3. [License](#license)
 
 ## About
-[![Reference](https://img.shields.io/badge/Discord%20Developers-Reference-blue.svg?logo=discord)](https://discord.com/developers/docs/reference#snowflakes-snowflake-id-format-structure-left-to-right)
+[![Reference](https://img.shields.io/badge/Discord%20Developers-Reference-blue.svg?logo=discord)](https://discord.com/developers/docs/reference#snowflakes)
 [![Wikipedia](https://img.shields.io/badge/Wikipedia-Snowflake%20ID-blue.svg?logo=wikipedia)](https://en.wikipedia.org/wiki/Snowflake_ID)
 
 ### What is snowflake
