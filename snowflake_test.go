@@ -146,3 +146,24 @@ func TestParseJSON(t *testing.T) {
 		}
 	}
 }
+
+func TestUnmarshalJSON(t *testing.T) {
+	s := snowflake.New()
+	s.UnmarshalJSON([]byte("175928847299117209"))
+
+	if s != 175928847299117209 {
+		t.Errorf("FAIL TestUnmarshalJSON: invalid snowflake value after JSON unmarshal")
+	}
+
+	err := s.UnmarshalJSON([]byte("1000000000000000000000000"))
+
+	if err == nil {
+		t.Errorf("FAIL TestUnmarshalJSON: snowflake second JSON unmarshal must return error")
+	}
+	if s != 175928847299117209 {
+		t.Errorf("FAIL TestUnmarshalJSON: snowflake value must remain unchanged after the " +
+			"second JSON unmarshal")
+	}
+
+	// No more tests needed for UnmarshalJSON, because UnmarshalJSON is based on ParseJSON
+}
