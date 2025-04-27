@@ -1,7 +1,7 @@
 <div align="center">
 <h1>Gophercord/Snowflake</h1>
 <p>Library for manipulating Discord snowflake IDs written in Go (Golang). Used by Gophercord.</p>
-<img width="165" height="150" style="padding-bottom: 20px;" src=".etc/pictures/gopher/gopher-with-discord-logo.png">
+<img width="169.7" height="150" style="padding-bottom: 20px;" src=".etc/pictures/gopher/gopher-with-discord-logo.png">
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/gophercord/snowflake.svg)](https://pkg.go.dev/github.com/gophercord/snowflake)
 [![Go Report](https://goreportcard.com/badge/github.com/gophercord/snowflake)](https://goreportcard.com/report/github.com/gophercord/snowflake)

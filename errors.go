@@ -9,12 +9,12 @@ type SnowflakeError struct {
 }
 
 // Required to implement error interface. Returns formatted error.
-func (s *SnowflakeError) Error() string {
+func (s SnowflakeError) Error() string {
 	return fmt.Sprintf("%s (original error: %s)", s.message, s.err.Error())
 }
 
 // This function returns original error.
-func (s *SnowflakeError) OriginalError() error {
+func (s SnowflakeError) OriginalError() error {
 	return s.err
 }
 
