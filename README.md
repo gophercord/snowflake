@@ -6,7 +6,7 @@
 [![Go Reference](https://pkg.go.dev/badge/github.com/gophercord/snowflake.svg)](https://pkg.go.dev/github.com/gophercord/snowflake)
 [![Go Report](https://goreportcard.com/badge/github.com/gophercord/snowflake)](https://goreportcard.com/report/github.com/gophercord/snowflake)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/gophercord/snowflake/blob/master/LICENSE)
-[![Examples](https://img.shields.io/badge/Code%20examples-grey.svg)](.examples)
+[![Code examples](https://img.shields.io/badge/Code%20examples-grey.svg)](.examples)
 
 </div>
 
@@ -17,7 +17,7 @@
     2. [Snowflake structure](#snowflake-structure)
 2. [Getting started](#getting-started)
     1. [Installing snowflake](#installing-snowflake)
-    2. [Usage](#usage)
+    2. [Code example](#code-example)
 3. [License](#license)
 
 ---
@@ -48,10 +48,10 @@ Type this command in your terminal to install:
 $ go get github.com/gophercord/snowflake
 ```
 
-### Usage
+### Code example
 [![Playground](https://img.shields.io/badge/Try%20this%20code%20on-Go%20Playground-blue.svg)](https://go.dev/play/p/HsJ461Pf7Pn)
 
-Simple gophercord/snowflake usage example. You may like to see the [.examples](.examples) directory for more examples (TODO).
+Simple gophercord/snowflake usage example. You may like to see the [.examples](.examples) directory for more examples.
 
 ```golang
 package main
