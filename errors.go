@@ -20,11 +20,12 @@ func (s SnowflakeError) OriginalError() error {
 
 // Used in:
 //
-//	snowflake.ParseString() // when strconv.ParseUint unable to parse string as uint64.
+//	[ParseString]
+//	When strconv.ParseUint unable to parse string as uint64.
 type StringParseError struct{ SnowflakeError }
 
 // Used in:
 //
-//	snowflake.ParseJSON() // when JSON is a unquoted integer and unquoted integers are
-//	                      // not allowed.
+//	[ParseJSON]
+//	When JSON is a unquoted integer and unquoted integers are not allowed.
 type UnquotedIntegerError struct{ SnowflakeError }
