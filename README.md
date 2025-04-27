@@ -1,13 +1,15 @@
-# Gophercord/Snowflake
-<img src=".etc/pictures/gopher/gopher-with-discord-logo.png" align="right" width=200>
+<div align="center">
+<h1>Gophercord/Snowflake</h1>
+<p>Library for manipulating Discord snowflake IDs written in Go (Golang). Used by Gophercord.</p>
+<img style="height: 150px; padding-bottom: 20px;" src=".etc/pictures/gopher/gopher-with-discord-logo.png">
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/gophercord/snowflake.svg)](https://pkg.go.dev/github.com/gophercord/snowflake)
 [![Go Report](https://goreportcard.com/badge/github.com/gophercord/snowflake)](https://goreportcard.com/report/github.com/gophercord/snowflake)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/gophercord/snowflake/blob/master/LICENSE)
+</div>
 
-Library for manipulating Discord snowflake IDs written in Go (Golang), used by Gophercord.
+---
 
-## Summary
 1. [About](#about)
     1. [What is snowflake](#what-is-snowflake)
     2. [Snowflake structure](#snowflake-structure)
@@ -15,6 +17,8 @@ Library for manipulating Discord snowflake IDs written in Go (Golang), used by G
     1. [Installing snowflake](#installing-snowflake)
     2. [Usage](#usage)
 3. [License](#license)
+
+---
 
 ## About
 [![Reference](https://img.shields.io/badge/Discord%20Developers-Reference-blue.svg?logo=discord)](https://discord.com/developers/docs/reference#snowflakes)
