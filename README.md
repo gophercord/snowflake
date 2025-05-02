@@ -1,3 +1,5 @@
+<h1>Moved to <a href="https://github.com/gorocord/snowflake">gorocord/snowflake</a></h1>
+
 <div align="center">
 <h1>Gophercord/Snowflake</h1>
 <p>Library for manipulating Discord snowflake IDs written in Go (Golang). Used by Gophercord.</p>
